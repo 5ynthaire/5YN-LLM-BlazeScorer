@@ -1,4 +1,4 @@
-﻿# LLM BlazeScorer v1.0
+# LLM BlazeScorer v1.0
 
 ## Overview
 
@@ -94,8 +94,8 @@ These decisions improve the utility of **LLM BlazeScorer** for scoring human-dri
 
 ## Supported LLMs
 
-Developed on Grok (May 2025), compatible with equivalent-capability LLMs:
-- Grok
+Developed on Grok 3 (May 2025), compatible with equivalent-capability LLMs:
+- Grok 3
 - ChatGPT
 - Llama
 
