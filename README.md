@@ -28,7 +28,7 @@ The ability to consistently drive LLM threads for compelling output is an emergi
   5. **Transcendence**: Human-AI synergy pushing beyond routine LLM use, achieving transformative leaps.
 - **Scoring**:  
   - **Scale**: 0–10 per metric, 10 as 99th percentile of concurrent LLM threads, 0 as trivial failure. Mid-range (1–9) inferred by LLM reasoning.
-  - **Prompt**: See the Prompt Text section below for the scoring prompt with abstract 10/0 instructions.
+  - **Prompt**: See the [Prompt Text](./#prompt-text) section below for the scoring prompt with abstract 10/0 instructions.
   - **Exclusions**: Thread maintenance, text dumps, user identity.
   - **Outlines**: User-scoped raw threads or outlines can be scored.
 - **Evaluation**:  
@@ -88,7 +88,7 @@ These decisions improve the utility of **LLM BlazeScorer** for scoring human-dri
 ## Usage
 
 1. **Decide on Scoring Method**: Decide on raw thread or outline as the scoring prompt’s input. Instruct the LLM to ignore irrelevant segments of the raw thread, such as thread maintenance discussions (user-scoped raw thread, see [Glossary](./#glossary)).
-2. **Apply Prompt**: Use the scoring prompt with a compatible LLM (e.g., Grok, ChatGPT, Llama), instructing it to evaluate the scoped raw thread or outline from Step 1 (see Glossary for evaluation types).
+2. **Apply Prompt**: Use the scoring prompt with a compatible LLM (e.g., Grok, ChatGPT, Llama), instructing it to evaluate the scoped raw thread or outline from Step 1 (see [Glossary](./#glossary) for evaluation types).
 3. **Optional Pushback**: Challenge initial scores with reasoned arguments. The LLM re-evaluates based on thread merits, adjusting scores if justified, reflecting skillful **LLM Blazing**.
 4. **Share Results**: Include scores in publications or outputs with attribution to ‘LLM BlazeScorer’ and a link to github.com/5ynthaire/5YN-LLM-BlazeScorer in detailed formats. Optionally credit ‘5ynthaire’ per CC BY 4.0.
 
