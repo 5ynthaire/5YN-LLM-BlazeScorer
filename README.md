@@ -1,3 +1,5 @@
+![LLM BlazeScorer v1.0](banner.png)
+
 # LLM BlazeScorer v1.0
 
 ## Overview
